@@ -1,0 +1,7 @@
+train: C:\Users\LSH\Desktop\car-detection\数据集\data\images\train
+val: C:\Users\LSH\Desktop\car-detection\数据集\data\images\val
+
+ 
+# Classes
+nc: 7
+names: ['tiny-car', 'big-car', 'mid-car', 'small-truck', 'big-truck', 'oil-truck', 'special-car']

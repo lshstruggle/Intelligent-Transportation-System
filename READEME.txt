@@ -1,0 +1,9 @@
+watch -n 1 nvidia-smi 实时观看显存使用情况
+
+字典的使用
+
+帧率计算：
+
+使用 time.time() 计算每一帧的时间差，并通过公式 fps = 1 / (current_time - prev_time) 计算帧率。
+在计算速度时，使用实时计算的帧率 fps 来确保速度计算的准确性。
+
